@@ -1,0 +1,182 @@
+/* BODY */
+body{
+    width: 800px;
+    margin: auto;
+    background-color: black;
+}
+
+/* HOMEPAGE */
+#homepage{
+    background-color: white;
+    padding: 0 20px;
+}
+/* HEADER */
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#righ-header div{
+    justify-content: flex-end;
+    display: flex;
+}
+
+#righ-header i{
+    margin: 15px 0 0 10px;
+    color: #ff004c;
+}
+
+/* CONTAINER */
+#container{
+    border-top: 1px solid black;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+}
+
+section span{
+    color: #ff004c;
+}
+
+.small-font{
+    font-size: 11px;
+    color: #6f6f85;
+}
+
+.lead{
+    color: #ff004c;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+section h3{
+    text-transform: uppercase;
+    color: #868686;
+}
+
+#header-form{
+    margin-bottom: 30px;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+/* FORM ALLER RETOUR */
+
+.form-aller-retour{
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-form{
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-form p{
+    margin: 2px 0 0 0;
+}
+
+input[type=text]{
+    width: 98%;
+}
+
+.row{
+    width: 330px;
+}
+
+.row div{
+    margin-bottom: 20px;
+}
+
+#classe{
+    display: flex;
+}
+
+#classe div{
+    margin: 1em 0;
+}
+
+#classe p{
+    margin-right: 30px;
+    text-transform: uppercase;
+}
+
+#classe label{
+    margin-right: 15px;
+}
+
+#nb-passager{
+    display: flex;
+}
+
+#nb-passager select{
+    height: 30px;
+    margin: auto 20px;
+}
+
+/* PASSAGER 1 */
+
+#passager-1{
+    background-color: #f1f1f1;
+    padding: 10px 20px;;
+}
+
+#passager-1 hr{
+    margin-bottom: 15px;
+}
+
+#passager-1 > section > div > div{
+    margin: 15px 0;
+}
+
+#passenger-profil{
+    margin-left: 24px;
+}
+
+#passager-fidelite{
+    margin-left: 15px;
+}
+
+#passenger-1-right{
+    margin: auto;
+    width: 275px;
+}
+
+#bottom-form-hr{
+    margin: 30px 0;
+}
+
+#bottom-form{
+    margin-top: 50px;
+}
+
+#bottom-form > button{
+    color: red;
+    text-transform: uppercase;
+    height: 45px;
+    background: linear-gradient(#fefefe, #efefef);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0 25px;
+}
+
+#bottom-form > div {
+    text-align: end;
+}
+
+#bottom-form > div > button {
+    text-transform: uppercase;
+    height: 45px;
+    border-radius: 5px;
+    background: linear-gradient(#d53269, #a40238);
+    border: 1px solid #cb0044;
+    color: white;
+    padding: 0 25px;
+}
+
+form > p > i{
+    color: red;
+    margin-right: 10px;
+}

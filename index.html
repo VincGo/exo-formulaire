@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/icons/fontawesome-free-5.15.1-web/css/all.css">
+    <title>Formulaire SNCF</title>
+</head>
+<body>
+    <div id="homepage">
+        <header>
+            <div id="left-header">
+                <p class="small-font">Voyageurs/Billets & Info trajets /</p>
+                <h1>RESERVATION</h1>
+            </div>
+            <div id="righ-header">
+                <div>
+                    <i class="fas fa-print"></i>
+                    <i class="fas fa-share-alt-square"></i>
+                </div>
+                <img src="assets/img/logo-voyage-sncf.jpg" alt="sncf">
+            </div>
+        </header>
+        <div id="container">
+            <section>
+                <p class="small-font"><i class="fas fa-wheelchair"></i>Voyageur handicapé, rendez-vous sur votre <span>espace dédié.</span></p>
+                <p class="lead">gérer mes réservations <i class="fas fa-chevron-right"></i></p>
+            </section>
+            <p class="small-font">* Champs obligatoires</p>
+            <form action="#">
+                <div id="header-form">
+                    <input type="checkbox" name="aller-retour" id="aller-retour">
+                    <label for="aller-retour">Aller et retour différents</label>
+                </div>
+                <section class="form-aller-retour">
+                    <div class="row">
+                        <div>
+                            <label for="depart">Départ *</label><br>
+                            <input type="text" name="depart" id="depart">
+                        </div>
+                        <div>
+                            <label>Aller le *</label><br>
+                            <input type="date">
+                            <select>
+                                <option value="">Départ à</option>
+                            </select>
+                            <select>
+                                <option value="">17h</option>
+                            </select>
+                        </div>
+                        <div id="footer-form">
+                            <div>
+                                <label>Trajet direct</label>
+                                <input type="checkbox">
+                            </div>
+                            <p>Ou trajet via</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div>
+                            <label for="arrive">Arrivé *</label><br>
+                            <input type="text" name="arrive" id="arrive">
+                        </div>
+                        <div>
+                            <label for="retour-date">Retour le *</label><br>
+                            <input type="date" id="retour-date">
+                            <select>
+                                <option value="">Départ à</option>
+                            </select>
+                            <select>
+                                <option value="">07h</option>
+                            </select>
+                        </div>
+                        <input type="text">
+                    </div>
+                </section>
+                <hr>
+                <div id="classe">
+                    <p>Confort</p>
+                    <div>
+                        <input type="radio">
+                        <label>1ère classe</label>
+                        <input type="radio">
+                        <label>2nd classe</label>
+                    </div>
+                </div>
+                <hr>
+                <section>
+                    <div id="nb-passager">
+                        <h3>passagers</h3>
+                        <select>
+                            <option value="">1</option>
+                        </select>
+                    </div>
+                    <p class="lead">Plus de 9 passagers<i class="fas fa-chevron-right"></i></p>
+                </section>
+                <div id="passager-1">
+                    <p class="lead">Passager 1</p>
+                    <hr>
+                    <section>
+                        <div>
+                            <div>
+                                <label>Profil du passager</label>
+                                <select id="passenger-profil">
+                                    <option>26 - 59 ans</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label>Carte et abonnement</label>
+                                <select>
+                                    <option>Carte et abonnement</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label>Programme fidélité</label>
+                                <select id="passager-fidelite">
+                                    <option>Programme fidélité</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div id="passenger-1-right">
+                            <section>
+                                <label>Code avantage</label>
+                                <input type="text" placeholder="Saisissez ici votre code">
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                <hr id="bottom-form-hr">
+                <p class="small-font"><i class="fas fa-chevron-right "></i>Voyager avec votre animal de compagnie</p>
+                <section id="bottom-form">
+                    <button>Horaires seuls</button>
+                    <div>
+                        <button>Rechercher</button>
+                        <p class="lead">Informations sur les émissions de CO2<i class="fas fa-chevron-right"></i></p>
+                    </div>
+                </section>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
